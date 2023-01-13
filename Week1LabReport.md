@@ -2,6 +2,7 @@
 ---
 *How to log into a course-specific account on ieng6*
 
+
 1) Setting up Visual Studio Code
 
 (Note: If you do not wish to use a personal laptop, feel free to use the computers 
@@ -16,6 +17,8 @@ window as below (Note: may not be look identical based on different systems)
 <img width="1026" alt="VS Code" src="https://user-images.githubusercontent.com/116247778/212201975-05f7265e-c727-4ddc-971c-db33c3e0c339.png">
 
 (Note: disregard my 'Recent' files, yours will be empty.)
+
+
 
 2) Remotely Connecting
 
@@ -50,8 +53,41 @@ If you were successful, congratulations, you have successfully remotley connecte
 If not, please reach out for help, the professor and staff are all too willing and able.
 Now, to test a few commands on our newly made remote connection.
 
-3)
 
+3) Trying some commands
+
+Now that we have our connection, we can use some common Terminal commands to gain some familiarity for what is possible
+from this new technology.
+
+Here is a link to check out a few commands before a demonstrate a handful as examples: 
+[Terminal Commands](https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/)
+
+The 'cd' command: "Change Directory" - this is used to switch the current working directory to the given path.
+(Note: you will see no action with this command, but trust it has done its job)
+
+<img width="487" alt="Screen Shot 2023-01-12 at 4 35 55 PM" src="https://user-images.githubusercontent.com/116247778/212210183-8a328f06-bc59-425b-b3b8-069114f7450b.png">
+
+To see what 'cd' did, or to know where we are in the system, we use the 'pwd' command: "Print working directory".
+This is used to display the current working directory.
+
+<img width="489" alt="Screen Shot 2023-01-12 at 4 38 29 PM" src="https://user-images.githubusercontent.com/116247778/212210456-9d487757-7bd5-4cf7-842c-fb6d93985480.png">
+
+Now that we know where we are, we can use the 'ls' command: "list" to list out all the files and folders of the 
+given path.
+
+<img width="476" alt="Screen Shot 2023-01-12 at 4 40 30 PM" src="https://user-images.githubusercontent.com/116247778/212210675-364d6e20-3346-4144-975e-821139d81388.png">
+
+Another useful command is 'top', which gives a real-time look at all actively running computer processes, including
+memory and CPU!
+
+<img width="492" alt="Screen Shot 2023-01-12 at 4 45 57 PM" src="https://user-images.githubusercontent.com/116247778/212211516-dc48ae0c-b5db-4f69-bfe8-c8f7b9f6ded3.png">
+
+When you are prepared to exit the connection from the terminal, simply use either
+
+* Ctrl + D
+* exit
+
+Good luck with your future exploring!
 
 
 
