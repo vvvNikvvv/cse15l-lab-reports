@@ -5,7 +5,7 @@
 1) Setting up Visual Studio Code
 
 (Note: If you do not wish to use a personal laptop, feel free to use the computers 
-provided in the CS building which have VS Code.)
+provided in the CSE building which have VS Code.)
 
 To begin, click this link: [Visual Studio Code](https://code.visualstudio.com/) and 
 follow each instruction for your given operating system.
@@ -34,7 +34,10 @@ Terminal is highlighted red and the yellow error shows where you will be enterin
 Now, to use **ssh**, type in 'ssh' before your course-specific account, my account is **cs15lwi23ana@ieng6.ucsd.edu**.
 Yours will be identical *except* for the letters after '23' ('ana' in my case), yours are specific to you.
 
-You will then be prompted to enter your password and hit enter. You will not be able to see the password for security purposes, so type it calmly and correctly. It should look like this if successful:
+You will then be prompted to enter your password and hit enter. You will not be able to see the password for security purposes, so type it calmly and correctly. Your first sign in will default a warning regarding authenticity of the accout
+and will ask if you are wish to continue connection - type 'yes'
+
+It should look like this if successful:
 
 <img width="1026" alt="Screen Shot 2023-01-12 at 4 09 44 PM" src="https://user-images.githubusercontent.com/116247778/212207773-da045b25-c425-4c88-8b50-ac23ec062ed8.png">
 
@@ -42,6 +45,15 @@ Note: if you enter incorrectly more than 3 times, your connection will be lost. 
 This case will look something like this:
 
 <img width="687" alt="Screen Shot 2023-01-12 at 4 16 18 PM" src="https://user-images.githubusercontent.com/116247778/212207948-242c8598-bf7a-43ac-a3e4-d1a0bd75d01d.png">
+
+If you were successful, congratulations, you have successfully remotley connected to a computer in the CSE basement.
+If not, please reach out for help, the professor and staff are all too willing and able.
+Now, to test a few commands on our newly made remote connection.
+
+3)
+
+
+
 
 
 
