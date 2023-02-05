@@ -101,9 +101,9 @@ Failure-inducing input for the buggy program:
 # 
   The failure-inducing input is {3,7,0}.
   
-  public class ArrayTests {
-	@Test 
-	public void testReverseInPlace() {
+public class ArrayTests {
+@Test 
+public void testReverseInPlace() {
     
     int[] input2 = {3, 7, 0};
     ArrayExamples.reverseInPlaceBUGGED(input2);
@@ -118,8 +118,8 @@ Failure-inducing input for the buggy program:
  
  Non-Failure-inducing input for the buggy program:
  ```
- #
-  >The non-failure-inducing input is {3}.
+ 
+  The non-failure-inducing input is {3}.
   
   int[] input1 = { 3 };
     ArrayExamples.reverseInPlaceBUGGED(input1);
