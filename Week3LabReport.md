@@ -98,8 +98,7 @@ a temporary int for holding values between swaps.
 
 Failure-inducing input for the buggy program:
 ```
-# 
-  The failure-inducing input is {3,7,0}.
+The failure-inducing input is {3,7,0}.
   
 public class ArrayTests {
 @Test 
@@ -118,12 +117,17 @@ public void testReverseInPlace() {
  
  Non-Failure-inducing input for the buggy program:
  ```
+The non-failure-inducing input is {3}.
  
-  The non-failure-inducing input is {3}.
-  
-  int[] input1 = { 3 };
+public class ArrayTests {
+@Test 
+public void testReverseInPlace() {
+
+    int[] input1 = { 3 };
     ArrayExamples.reverseInPlaceBUGGED(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
+    
+    }
  ```
 No errors shown because the array has only one element, it simply replaces
 arr[0] with arr[0] based on the algorithm.
@@ -138,21 +142,20 @@ arr[0] with arr[0] based on the algorithm.
 
 ![Non-Failure_Inducing](https://user-images.githubusercontent.com/116247778/216797433-2ae4092d-122d-4ed3-a9a3-47f07efe3d5f.png)
 
- The buggy code before the fix:
+The buggy code before the fix:
 
 ```
-#
 static void reverseInPlaceBUGGED(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
   }
 ```
- The code after the fix:
+The code after the fix:
 
 ```
-#
 static void reverseInPlaceFIXED_TWO(int arr[]){
+
     for(int i = 0; i < (arr.length/2);i++){
       int j = 0;
       int k = arr.length - 1;
@@ -163,6 +166,7 @@ static void reverseInPlaceFIXED_TWO(int arr[]){
       k--;
     }
   }
+  
 ```
 The code previously replaced all elements before middle correctly with elements after, but
 at the middle it would replace the back with the new values from the front which were the 
