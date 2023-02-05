@@ -176,12 +176,26 @@ I've included screenshots of my trace-building of the fixed algorithm.
 
 > The trace-building of the algorithm and examples to demonstrate correctness:
 
-> Trace of the Bug
+Trace of the Bug
+
 ![Trace Bug](https://user-images.githubusercontent.com/116247778/216797760-8c12026d-3b05-40dd-801e-937c9b709402.png)
->Trace of Even Proof
+
+Trace of Even Proof
+
 ![Trace Even Proof](https://user-images.githubusercontent.com/116247778/216797767-ee75ec03-9deb-428a-aa80-136d0f6fe732.png)
->Trace of Odd Proof
+
+Trace of Odd Proof
+
 ![Trace Odd Proof](https://user-images.githubusercontent.com/116247778/216797771-d1c08dd4-3d66-4724-a7e5-f8f6314820ef.png)
+
+---
+
+*PART 3*
+
+I've learned many things that I had not heard of before, but I think the coolest topic is the power of
+jUnit to strengthen your code and the strengthen your understanding of your code. The asserEquals when you
+want to compare values and assertSame if comparing objects. I'm growing more confident in assertThrows and
+assertTrue/False. I've heard before that a strong style of coding is to design tests before ever writing algorithms, and I think jUnit is a hard argument for that. Looking forward to implementing a tester file to all future projects!
 
 
 
