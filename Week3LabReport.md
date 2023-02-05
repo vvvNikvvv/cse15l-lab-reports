@@ -96,10 +96,10 @@ original content in reverse. After reading clearly, the goal was to NOT create a
 after a few scratch tests, I found on that worked form within the orginal array itself using only
 a temporary int for holding values between swaps.
 
->Failure-inducing input for the buggy program:
+Failure-inducing input for the buggy program:
 ```
 # 
-  >The failure-inducing input is {3,7,0}.
+  The failure-inducing input is {3,7,0}.
   
   public class ArrayTests {
 	@Test 
@@ -116,7 +116,7 @@ a temporary int for holding values between swaps.
  only the last elements in the beginning of the array and then replaces the 
  end of the array with the previous values.
  
- >Non-Failure-inducing input for the buggy program:
+ Non-Failure-inducing input for the buggy program:
  ```
  #
   >The non-failure-inducing input is {3}.
@@ -128,7 +128,7 @@ a temporary int for holding values between swaps.
 No errors shown because the array has only one element, it simply replaces
 arr[0] with arr[0] based on the algorithm.
 
-> The symptom of these two inputs by running jUnit tests:
+ The symptom of these two inputs by running jUnit tests:
 
 *Failure-inducing*
 
@@ -138,7 +138,7 @@ arr[0] with arr[0] based on the algorithm.
 
 ![Non-Failure_Inducing](https://user-images.githubusercontent.com/116247778/216797433-2ae4092d-122d-4ed3-a9a3-47f07efe3d5f.png)
 
-> The buggy code before the fix:
+ The buggy code before the fix:
 
 ```
 #
@@ -148,7 +148,7 @@ static void reverseInPlaceBUGGED(int[] arr) {
     }
   }
 ```
-> The code after the fix:
+ The code after the fix:
 
 ```
 #
