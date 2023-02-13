@@ -13,16 +13,16 @@ The template for use is
 
 I will be exploring a few of the *options* at our disposal with grep and demonstrate a few examples.
 
-- *grep -r*:
+- *grep -r*: performs a recursive search through all the files for the pattern in a given directory.
 
 
-- *grep -l*: 
+- *grep -l*: displays the name(s) of the file(s) that contain the pattern.
 
 
-- *grep -i*:
+- *grep -i*: prints the name of the file and sentence containing the **case-insensitive** pattern.
 
 
-- *grep -c*:
+- *grep -c*: prints the count of the number of times the pattern appears in a given file.
 
 
 
