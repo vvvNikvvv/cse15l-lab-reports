@@ -13,6 +13,17 @@ The template for use is
 
 I will be exploring a few of the *options* at our disposal with grep and demonstrate a few examples.
 
+- *grep -r*:
+
+
+- *grep -l*: 
+
+
+- *grep -i*:
+
+
+- *grep -c*:
+
 
 
 
