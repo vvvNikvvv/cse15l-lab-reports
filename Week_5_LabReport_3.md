@@ -8,7 +8,12 @@
 
 As the acronymic name suggest, this command-line utility is used to search for a plian-text data for a
 specified word or set of words which are called 'patterns'. 
-The template for use is as follows: grep ==[options]== 'patter' ==[files]==
+The template for use is 
+> grep ==[options]== 'pattern' ==[files]==
+
+I will be exploring a few of the *options* at our disposal with grep and demonstrate a few examples.
+
+
 
 
 
