@@ -50,7 +50,7 @@ WhereToIstanbul.txt:        Achilles, and Agamemnon.
 
 *As an extra example, one more broad, here we can use the command to see what files in a specific directory
 contain the pattern and list them by expected filename then sentence where the pattern appears.
-(I've only inlcuded the first 15 occurances of the pattern for sake of concise report)*
+(I've only inlcuded the first 15 occurances of the pattern for sake of concise report).*
 
 ```
 
@@ -75,4 +75,61 @@ nikvirrey@Niks-MacBook-Pro-2 travel_guides % grep -r "Greece"
 
 > Examples of *grep -l*:
 
+*In this example, you can either enter the directory or know the path with the files you are wanting to search. After entering changing directories to the **berlitz1** directory, we specify the pattern and name of files to search; in this case we use the asterisk to instruct the search to operate on all files of type '.txt'.
 
+```
+
+nikvirrey@Niks-MacBook-Pro-2 berlitz1 % grep -l "Greece" *.txt
+
+HistoryGreek.txt
+HistoryIstanbul.txt
+IntroGreek.txt
+WhatToGreek.txt
+WhereToEgypt.txt
+WhereToGreek.txt
+WhereToIstanbul.txt
+WhereToItaly.txt
+WhereToJerusalem.txt
+
+```
+ *Here is the same search as above but from  one directory out in 'travel_guides' and specifiying all .txt files
+ inside the berlitz1 directory, beneficial if you know the exact location to search and don't wish to descend into
+ various directories via the cd command.
+ 
+```
+
+nikvirrey@Niks-MacBook-Pro-2 travel_guides % grep -l "Greece" berlitz1/*.txt
+berlitz1/HistoryGreek.txt
+berlitz1/HistoryIstanbul.txt
+berlitz1/IntroGreek.txt
+berlitz1/WhatToGreek.txt
+berlitz1/WhereToEgypt.txt
+berlitz1/WhereToGreek.txt
+berlitz1/WhereToIstanbul.txt
+berlitz1/WhereToItaly.txt
+berlitz1/WhereToJerusalem.txt
+
+```
+*Here is another example of knowing the subdirectory in which you would like to search the pattern "Golf" and then 
+having all the files containing it be presented. So this would be an effective process of elimination tool for 
+multiple directory concerns - quicly perform an exact search in a different directory without changin the present working
+directory.
+
+```
+
+nikvirrey@Niks-MacBook-Pro-2 travel_guides % grep -l "Greece" berlitz2/*.txt
+
+berlitz2/Athens-History.txt
+berlitz2/Athens-Intro.txt
+berlitz2/Athens-WhatToDo.txt
+berlitz2/Athens-WhereToGo.txt
+berlitz2/Barcelona-WhereToGo.txt
+berlitz2/Budapest-History.txt
+berlitz2/CostaBlanca-History.txt
+berlitz2/Crete-History.txt
+berlitz2/Crete-WhatToDo.txt
+berlitz2/Crete-WhereToGo.txt
+
+```
+
+> Examples of *grep -i*:
