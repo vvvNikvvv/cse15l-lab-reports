@@ -75,7 +75,7 @@ nikvirrey@Niks-MacBook-Pro-2 travel_guides % grep -r "Greece"
 
 > Examples of *grep -l*:
 
-*In this example, you can either enter the directory or know the path with the files you are wanting to search. After entering changing directories to the **berlitz1** directory, we specify the pattern and name of files to search; in this case we use the asterisk to instruct the search to operate on all files of type '.txt'.
+*In this example, you can either enter the directory or know the path with the files you are wanting to search. After entering changing directories to the **berlitz1** directory, we specify the pattern and name of files to search; in this case we use the asterisk to instruct the search to operate on all files of type '.txt'.*
 
 ```
 
@@ -94,7 +94,7 @@ WhereToJerusalem.txt
 ```
  *Here is the same search as above but from  one directory out in 'travel_guides' and specifiying all .txt files
  inside the berlitz1 directory, beneficial if you know the exact location to search and don't wish to descend into
- various directories via the cd command.
+ various directories via the cd command.*
  
 ```
 
@@ -113,7 +113,7 @@ berlitz1/WhereToJerusalem.txt
 *Here is another example of knowing the subdirectory in which you would like to search the pattern "Golf" and then 
 having all the files containing it be presented. So this would be an effective process of elimination tool for 
 multiple directory concerns - quicly perform an exact search in a different directory without changin the present working
-directory.
+directory.*
 
 ```
 
