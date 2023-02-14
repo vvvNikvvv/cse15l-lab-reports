@@ -218,6 +218,7 @@ berlitz2/Athens-WhereToGo.txt:3
 
 ```
 
+
 ```
 
 nikvirrey@Niks-MacBook-Pro-2 travel_guides % grep -c "Hollywood" berlitz2/California-*.txt
@@ -227,6 +228,98 @@ berlitz2/California-WhatToDo.txt:7
 berlitz2/California-WhereToGo.txt:14
 
 ```
+
+
+*In this example, we can use this count tool to identify files that exhibit an excess of repeition of certain words that
+should be changed based on its average presnece in neighboring files. I find words such as 'the' to be a prime example for this editing need.*
+
+```
+
+nikvirrey@Niks-MacBook-Pro-2 travel_guides % grep -c "the" berlitz2/*.txt
+
+berlitz2/Algarve-History.txt:32
+berlitz2/Algarve-Intro.txt:21
+berlitz2/Algarve-WhatToDo.txt:43
+berlitz2/Algarve-WhereToGo.txt:147
+berlitz2/Amsterdam-History.txt:37
+berlitz2/Amsterdam-Intro.txt:13
+berlitz2/Amsterdam-WhatToDo.txt:43
+berlitz2/Amsterdam-WhereToGo.txt:120
+berlitz2/Athens-History.txt:44
+berlitz2/Athens-Intro.txt:15
+berlitz2/Athens-WhatToDo.txt:45
+berlitz2/Athens-WhereToGo.txt:126
+berlitz2/Bahamas-History.txt:30
+berlitz2/Bahamas-Intro.txt:17
+berlitz2/Bahamas-WhatToDo.txt:45
+berlitz2/Bahamas-WhereToGo.txt:130
+berlitz2/Bali-History.txt:25
+berlitz2/Bali-WhatToDo.txt:42
+berlitz2/Bali-WhereToGo.txt:165
+berlitz2/Barcelona-History.txt:22
+berlitz2/Barcelona-WhatToDo.txt:33
+berlitz2/Barcelona-WhereToGo.txt:124
+berlitz2/Beijing-History.txt:24
+berlitz2/Beijing-WhatToDo.txt:45
+berlitz2/Beijing-WhereToGo.txt:113
+berlitz2/Berlin-History.txt:45
+berlitz2/Berlin-WhatToDo.txt:40
+berlitz2/Berlin-WhereToGo.txt:168
+berlitz2/Bermuda-WhatToDo.txt:62
+berlitz2/Bermuda-WhereToGo.txt:97
+berlitz2/Bermuda-history.txt:29
+berlitz2/Boston-WhereToGo.txt:149
+berlitz2/Budapest-History.txt:34
+berlitz2/Budapest-WhatToDo.txt:49
+berlitz2/Budapest-WhereoGo.txt:155
+berlitz2/California-History.txt:40
+berlitz2/California-WhatToDo.txt:49
+berlitz2/California-WhereToGo.txt:151
+berlitz2/Canada-History.txt:71
+berlitz2/Canada-WhereToGo.txt:423
+berlitz2/CanaryIslands-History.txt:28
+berlitz2/CanaryIslands-WhatToDo.txt:50
+berlitz2/CanaryIslands-WhereToGo.txt:117
+berlitz2/Cancun-History.txt:21
+berlitz2/Cancun-WhatToDo.txt:44
+berlitz2/Cancun-WhereToGo.txt:110
+berlitz2/China-History.txt:63
+berlitz2/China-WhatToDo.txt:42
+berlitz2/China-WhereToGo.txt:415
+berlitz2/Costa-History.txt:33
+berlitz2/Costa-WhatToDo.txt:42
+berlitz2/Costa-WhereToGo.txt:137
+berlitz2/CostaBlanca-History.txt:27
+berlitz2/CostaBlanca-WhatToDo.txt:75
+berlitz2/Crete-History.txt:33
+berlitz2/Crete-WhatToDo.txt:50
+berlitz2/Crete-WhereToGo.txt:135
+berlitz2/CstaBlanca-WhereToGo.txt:115
+berlitz2/Cuba-History.txt:27
+berlitz2/Cuba-WhatToDo.txt:31
+berlitz2/Cuba-WhereToGo.txt:149
+berlitz2/Nepal-History.txt:36
+berlitz2/Nepal-WhatToDo.txt:81
+berlitz2/Nepal-WhereToGo.txt:104
+berlitz2/NewOrleans-History.txt:43
+berlitz2/Paris-WhatToDo.txt:31
+berlitz2/Paris-WhereToGo.txt:146
+berlitz2/Poland-History.txt:37
+berlitz2/Poland-WhatToDo.txt:36
+berlitz2/Portugal-History.txt:39
+berlitz2/Portugal-WhatToDo.txt:48
+berlitz2/Portugal-WhereToGo.txt:281
+berlitz2/PuertoRico-History.txt:22
+berlitz2/PuertoRico-WhatToDo.txt:57
+berlitz2/PuertoRico-WhereToGo.txt:116
+berlitz2/Vallarta-History.txt:32
+berlitz2/Vallarta-WhatToDo.txt:61
+berlitz2/Vallarta-WhereToGo.txt:111
+
+```
+*We can see that both berlitz2/Canada-WhereToGo.txt and berlitz2/China-WhereToGo.txt both have well above four 
+times the average usage of 'the' with 423 and 415 instances, respectively, and should call to attention a proabale case of editing.*
+
 
 
 
