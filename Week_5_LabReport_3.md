@@ -317,9 +317,17 @@ berlitz2/Vallarta-WhatToDo.txt:61
 berlitz2/Vallarta-WhereToGo.txt:111
 
 ```
-*We can see that both berlitz2/Canada-WhereToGo.txt and berlitz2/China-WhereToGo.txt both have well above four 
-times the average usage of 'the' with 423 and 415 instances, respectively, and should call to attention a proabale case of editing.*
+*We can see that both **berlitz2/Canada-WhereToGo.txt** and **berlitz2/China-WhereToGo.txt** both have well above four 
+times the average usage of 'the' with 423 and 415 instances, respectively, and should call to attention a proabale case of editing. This approach can be interesting as there is more of a mathematical approach to word selection that may be missed if simply judged by a cursory reading*
 
+
+---
+
+
+>Sources Used:
+>>ChatGPT: chat.openai.com/chat
+>>Wikipedia: en.wikipedia.org/wiki/Grep
+>>GeeksForGeeks: geeksforgeeks.org/grep-command-in-unixlinux/
 
 
 
