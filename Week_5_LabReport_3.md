@@ -133,3 +133,102 @@ berlitz2/Crete-WhereToGo.txt
 ```
 
 > Examples of *grep -i*:
+
+*Here is an example of when searching "many beaches", the command looks for any string with these letters in order with
+case insensitivity. You will notice 'Many' capitalized in the second file returned and not so in the first. Notice the 
+return is the name of the file and a lengthy excerpt of the patterns occurance. Helpful when looking for the pattern when
+case sensitivty is not a concern.*
+
+```
+
+nikvirrey@Niks-MacBook-Pro-2 travel_guides % grep -i "many beaches" berlitz2/*.txt
+
+berlitz2/Boston-WhereToGo.txt:The most alluring section of the Cape is its north shore and “upper arm.” Beaches vary. The sheltered Cape Cod Bay beaches on the north shore are transformed into mud flats when the tide is out. The spectacular East Coast Atlantic beaches can have a strong undertow. On a sunny summer’s day parking lots at the latter fill up fast; at many beaches visitors need a parking permit, which can be obtained from the town hall.
+
+berlitz2/Costa-WhatToDo.txt:Many beaches now fly the blue EU flag, which means that water quality and general sanitation meets environmental standards established by the European Union.
+
+```
+
+*This example employs double use of command options for easier readability. The goal being just to retrieve the file 
+name the pattern occurs in case insensitively. The order of the dual commands has no affect as shown below. This is
+helpful for when you are concerned solely with pattern occurance, case insensitively, and what files therein.*
+
+```
+nikvirrey@Niks-MacBook-Pro-2 travel_guides % grep -i -l "many beaches" berlitz2/*.txt
+
+berlitz2/Boston-WhereToGo.txt
+berlitz2/Costa-WhatToDo.txt
+
+
+
+nikvirrey@Niks-MacBook-Pro-2 travel_guides % grep -l -i "many beaches" berlitz2/*.txt
+
+berlitz2/Boston-WhereToGo.txt
+berlitz2/Costa-WhatToDo.txt
+
+```
+
+*In this example we will keep the technique of double options for readability and demonstrate the differnce of when
+you search for "city" without this command vs when you do. This will be done by using a small bash script. The goal to
+demonstrate a multi-step process that could be resused more quickly. We can see that "city" is capitalized only once
+in the .txt files.*
+
+```
+
+nikvirrey@Niks-MacBook-Pro-2 travel_guides % cat > city1.sh
+
+grep -l "city" berlitz2/*.txt > city.txt
+wc city.txt
+
+nikvirrey@Niks-MacBook-Pro-2 travel_guides % bash city1.sh
+
+      67      67    2012 city.txt
+      
+      
+      
+      
+nikvirrey@Niks-MacBook-Pro-2 travel_guides % cat > city2.sh
+
+grep -l -i "city" berlitz2/*.txt > city2.txt
+wc city2.txt
+
+
+nikvirrey@Niks-MacBook-Pro-2 travel_guides % bash city2.sh
+
+      68      68    2040 city2.txt
+
+
+```
+
+> Examples of *grep -c*:
+
+*This command is quite simple but can be combinded with different syntax to have very informative output. In these 
+examples, we'll look at when you know the subdirectory and subtitle and need a count of a certain word in those
+files. Helpful if you are citing information or would like to have a certain word mentioned a certain amount of times
+in all the files, this provides direction of action.*
+
+```
+
+nikvirrey@Niks-MacBook-Pro-2 travel_guides % grep -c "Agamemnon" berlitz2/Athens-*.txt
+
+berlitz2/Athens-History.txt:0
+berlitz2/Athens-Intro.txt:0
+berlitz2/Athens-WhatToDo.txt:0
+berlitz2/Athens-WhereToGo.txt:3
+
+```
+
+```
+
+nikvirrey@Niks-MacBook-Pro-2 travel_guides % grep -c "Hollywood" berlitz2/California-*.txt
+
+berlitz2/California-History.txt:5
+berlitz2/California-WhatToDo.txt:7
+berlitz2/California-WhereToGo.txt:14
+
+```
+
+
+
+
+
