@@ -24,6 +24,7 @@ I will be exploring a few of the *options* at our disposal with grep and demonst
 
 - *grep -c*: prints the count of the number of times the pattern appears in a given file.
 
+---
 
 > Examples of *grep -r*:
 
@@ -72,6 +73,7 @@ nikvirrey@Niks-MacBook-Pro-2 travel_guides % grep -r "Greece"
 ./berlitz1/HistoryIstanbul.txt:        the Persians from northern Greece and unifying the entire Greek world.
 
 ```
+---
 
 > Examples of *grep -l*:
 
@@ -131,6 +133,8 @@ berlitz2/Crete-WhatToDo.txt
 berlitz2/Crete-WhereToGo.txt
 
 ```
+
+---
 
 > Examples of *grep -i*:
 
@@ -199,6 +203,8 @@ nikvirrey@Niks-MacBook-Pro-2 travel_guides % bash city2.sh
 
 
 ```
+
+---
 
 > Examples of *grep -c*:
 
