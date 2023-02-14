@@ -325,6 +325,7 @@ times the average usage of 'the' with 423 and 415 instances, respectively, and s
 
 
 >Sources Used:
+>>CSE 15l: Lectures,Labs,Skills Demonstration
 >
 >>ChatGPT: chat.openai.com/chat
 >>
