@@ -49,6 +49,12 @@ and press it.
 
 ![Fork 1](https://user-images.githubusercontent.com/116247778/221377887-cf13c4fe-c875-4249-938e-24a779e4964f.png)
 
+After clicking, you will get a confirmation with allowance to give a custom description.
+
+>Image of creating the fork:
+
+![Fork 2](https://user-images.githubusercontent.com/116247778/221378019-91c5bf02-cb7c-4e10-92c9-4919af5ec7db.png)
+
 
 
 *Keys pressed: ```<up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><enter>
