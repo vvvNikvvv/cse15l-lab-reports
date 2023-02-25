@@ -55,6 +55,19 @@ After clicking, you will get a confirmation with allowance to give a custom desc
 
 ![Fork 2](https://user-images.githubusercontent.com/116247778/221378019-91c5bf02-cb7c-4e10-92c9-4919af5ec7db.png)
 
+Now you have the repository forked and ready for use by any server!
+
+---
+
+**Step : The real deal Start the timer**
+
+If you don't have a smartphone or smartwatch, google 'timer' for simple use of a stopwatch feature.
+
+>Image of google stopwatch:
+
+![google timert](https://user-images.githubusercontent.com/116247778/221378270-84c5b586-88be-4cfe-91b2-2aafc1186746.png)
+
+
 
 
 *Keys pressed: ```<up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><enter>
