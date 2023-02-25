@@ -147,9 +147,28 @@ Pressign the right arrow key 11 times and then delete key once, will delete the 
 
 ![bug fixed](https://user-images.githubusercontent.com/116247778/221379949-cf85de20-7ebd-47c7-bc95-c295a29daccc.png)
 
+*Keys pressed:* ```<ctrl><o><enter><ctrl><x>```
+
+Pressing ctrl-o will save the edits you made. You will be prompted to name the file, but you don't want to change the name, so
+you just press the enter key. Now to exit the nano editor you press ctrl-x. All done.
+
+---
+
+**Step 8: Run the tests, demonstrating that they now succeed**
 
 
+---
 
+**Step 9: Commit and push the resulting change to your Github account**
+
+*Keys pressed:*  ```<up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><enter>```
+
+Pressing the up key 16 time will get you to the line ```git add ListExamples.java``` hitting enter will add the new version
+of the file to the directory
+
+*Keys pressed:*  ```<up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><enter>```
+
+Pressing the up key 16 times will get you to the line ```git commit -m "Done"``` hittin enter will commit the change.
 
 
 
