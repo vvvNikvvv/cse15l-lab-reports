@@ -24,9 +24,21 @@
 
 ![Delete Repository](https://user-images.githubusercontent.com/116247778/221094274-4c31ba50-3ad3-4e1b-9ea6-1838fc0a5b75.png)
 
+Now go to your GitHub account, access the lab7/ file your forked, then proceed to click on *settings* and scroll down
+until you see the *Delete this Repository* and click it. It will ask you to type your username followed by the name of 
+the repository you are trying delete, in this case it will be *<username>lab7/*.
+
+>Image of deleting fork for from GitHub acount
+
+![Delete fork](https://user-images.githubusercontent.com/116247778/221377021-58178655-160b-4e1c-aa60-07a439bc05f0.png)
+b account
+
+
+
 *For this step I used the cd .. to exit out of the lab7/ directory and proceeded to remove the directory
 by using the rm -rf lab7/ command. I also explained how to remove the repository from the Github site
-and included an additinoal screenshot.*
+and included an additional screenshot. I had done other commands after completing the last step, so this was actually
+faster than clicking up 15+ times.*
 
 ---
 
