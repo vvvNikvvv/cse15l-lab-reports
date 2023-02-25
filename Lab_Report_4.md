@@ -88,7 +88,7 @@ a SSH key for our ieng6 accounts.
 *Keys pressed: ```<up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><enter>```
 
 Pressing the up key in the ieng6 server 16 times got me to ```[cs15lwi23ana@ieng6-202]:~:442$ git clone git@github.com:vvvNikvvv/lab7.git```
-line and then I pressed enter to execute the command.
+line and then I pressed enter to execute the command. You will see the last word 'done' when the cloning has successfully completed.
 
 >Image of cloning the repository:
 
