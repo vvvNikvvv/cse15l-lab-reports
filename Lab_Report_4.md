@@ -59,7 +59,7 @@ Now you have the repository forked and ready for use by any server!
 
 ---
 
-**Step : The real deal Start the timer**
+**Step 3: The real deal Start the timer**
 
 If you don't have a smartphone or smartwatch, google 'timer' for simple use of a stopwatch feature.
 
@@ -67,11 +67,25 @@ If you don't have a smartphone or smartwatch, google 'timer' for simple use of a
 
 ![google timert](https://user-images.githubusercontent.com/116247778/221378270-84c5b586-88be-4cfe-91b2-2aafc1186746.png)
 
+---
 
+**Step 4: Log into ieng6**
 
+*Keys pressed: ```<up><up><up><up><up><up><up><up><up><enter>```
 
-*Keys pressed: ```<up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><enter>
-```
+Pressing the up key 9 times got me to the command ```nikvirrey@Niks-MacBook-Pro-2 ~ % ssh cs15lwi23ana@ieng6.ucsd.edu```
+which will log me into my ieng6 account. Then you press enter once to execute the command. No passwords are needed because we created
+a SSH key for our ieng6 accounts.
+
+>Image of logging into ieng6:
+
+![Log into ieng6](https://user-images.githubusercontent.com/116247778/221378525-5f11f4ba-adf5-430e-89ae-557fe3bf566a.png)
+
+---
+
+**Step 5: Clone your fork of the repository from your GitHub account**
+
+*Keys pressed: ```<up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><enter>```
 
 
 
