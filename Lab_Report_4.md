@@ -183,6 +183,13 @@ of the file to the directory
 
 Pressing the up key 16 times will get you to the line ```git commit -m "Done"``` hittin enter will commit the change.
 
+*Keys pressed:*  ```<up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><up><enter>```
+
+>Image of the add, commit, and push:
+
+<img width="508" alt="add:commit:push" src="https://user-images.githubusercontent.com/116247778/221435854-7c07a649-fd5f-4a45-94d3-845a4089d702.png">
+
+
 
 
 
