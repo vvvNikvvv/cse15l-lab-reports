@@ -156,6 +156,19 @@ you just press the enter key. Now to exit the nano editor you press ctrl-x. All 
 
 **Step 8: Run the tests, demonstrating that they now succeed**
 
+*Keys pressed:* ```<up><up><up><enter>```
+
+Pressing up three times will get us back to the compile command ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```
+then pressing error executes the command.
+
+*Keys pressed:* ```<up><up><up><enter>```
+
+Pressing up three times will get us back to the execute command ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests``` and then pressing error that executes the command.
+
+>Image of both commands being executed and the success of the tests:
+
+<img width="975" alt="Test Success" src="https://user-images.githubusercontent.com/116247778/221435677-9eb640b2-73f4-4f2d-a95e-526d8d8de5bd.png">
+
 
 ---
 
