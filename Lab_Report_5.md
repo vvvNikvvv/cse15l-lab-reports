@@ -132,6 +132,20 @@ This file contains all errors corrected and is expected to recieve 4/4 points.
 
 <img width="900" alt="list-methods-corrected" src="https://user-images.githubusercontent.com/116247778/224840078-60478af1-1484-432f-bf0e-490a4f040250.png">
 
+We can see that the perfect score was given for the corrected version, as expected.
+
+---
+
+*methods-compile-error*
+
+This file is missing a semicolon after *result.add(0, s)* and therefore has a compile error.
+
+```https://github.com/ucsd-cse15l-f22/list-methods-compile-error```
+
+> Image of the output for this student submission:
+
+<img width="928" alt="list-methods-compile-error" src="https://user-images.githubusercontent.com/116247778/224840987-abc3d8d7-059e-4991-b5f1-ba24463a2daf.png">
+
 
 
 
