@@ -164,7 +164,9 @@ We can see the file was found but then the mismatch parameters caused a compile 
 
 ---
 
-*list-methods-filname*
+*list-methods-filename*
+
+This file contains the correct implementation but has the incorrct filename, causing it not to be found.
 
 ```https://github.com/ucsd-cse15l-f22/list-methods-filename```
 
@@ -172,7 +174,46 @@ We can see the file was found but then the mismatch parameters caused a compile 
 
 <img width="891" alt="list-methods-filename" src="https://user-images.githubusercontent.com/116247778/224842379-a12f107c-4e00-42f4-a06a-c4e4a6809881.png">
 
-We can see that the file was unable to be found and compilation was unsuccessful.
+We can see that the file was unable to be found and thus an immediate exit occured with no compilation and a 0/4 score.
 
 ---
+
+*list-methods-nested*
+
+This file contains the proper implementation and file name, but within a subdirectory that causes the not found error.
+
+```https://github.com/ucsd-cse15l-f22/list-methods-nested```
+
+> Image of the output for this student submission: 
+
+<img width="876" alt="list-methods-nested" src="https://user-images.githubusercontent.com/116247778/224845195-6a967d35-549a-489f-ba36-0cd6c00ba224.png">
+
+We can see the output from the code has become more aggressive with this type of error (haha, jk), awarding 0/4 points.
+
+---
+
+*list-examples-subtle*
+
+This file contains a subtle issues with value/address comparison as well as logical errors of dynamic instantiationn placement.
+
+Challenge:``` https://github.com/ucsd-cse15l-f22/list-examples-subtle```
+
+> Image of the output for this student submission: 
+
+<img width="887" alt="list-examples-subtle" src="https://user-images.githubusercontent.com/116247778/224846941-91f9320b-7cb3-4b4f-adf6-a4ae0c46854d.png">
+
+---
+
+**STEP 3: Conclusion**
+
+The goal of the last portion of class content for CSE 15l and nearly the entirety of CSE 12 was focus on debbugging via testing. 
+I believe utilizing @Test methods and files have greatly improved my coding quality. Here, the goal was to write code to catch 
+the errors known to be existent, but it is a beneficial way of reverse learning what to code for when you are unaware of possible
+errors. Things like signature check, file existance, reasons for compile errors via grep commands on text files hold the outputs 
+in order to be more precise with output. I am finallly convinced after this quarter that testing and javadoc should be completed 
+prior to coding as a insurance of understanding and the benefit of having the wholistic project in mind as you begin on the individual
+and compartmentalized portions of the code.
+
+---
+
 
