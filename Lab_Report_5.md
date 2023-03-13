@@ -207,7 +207,7 @@ Challenge:``` https://github.com/ucsd-cse15l-f22/list-examples-subtle```
 **STEP 3: Conclusion**
 
 The goal of the last portion of class content for CSE 15l and nearly the entirety of CSE 12 was focus on debbugging via testing. 
-I believe utilizing @Test methods and files have greatly improved my coding quality. Here, the goal was to write code to catch 
+I believe utilizing *@Test* methods and files have greatly improved my coding quality. Here, the goal was to write code to catch 
 the errors known to be existent, but it is a beneficial way of reverse learning what to code for when you are unaware of possible
 errors. Things like signature check, file existance, reasons for compile errors via grep commands on text files hold the outputs 
 in order to be more precise with output. I am finallly convinced after this quarter that testing and javadoc should be completed 
