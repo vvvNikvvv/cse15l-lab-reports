@@ -109,6 +109,7 @@ fi
 **STEP 2: Test all the student submissions**
 
 *list-methods-lab3*
+
 This file contains the same code as lab 3.
 
 ```https://github.com/ucsd-cse15l-f22/list-methods-lab3```
@@ -116,3 +117,21 @@ This file contains the same code as lab 3.
 > Image of the output for this student submission:
 
 <img width="866" alt="list-methods-lab3" src="https://user-images.githubusercontent.com/116247778/224834072-0da23255-43c0-48e2-8ae8-26f8227c68bd.png">
+
+We can see that the two errors were caught, the incorrct array ordering as well as the time out action, and the score was given accordingly.
+
+---
+
+*list-methods-corrected*
+
+This file contains all errors corrected and is expected to recieve 4/4 points.
+
+```https://github.com/ucsd-cse15l-f22/list-methods-corrected```
+
+> Image of the output for this student submission:
+
+<img width="900" alt="list-methods-corrected" src="https://user-images.githubusercontent.com/116247778/224840078-60478af1-1484-432f-bf0e-490a4f040250.png">
+
+
+
+
